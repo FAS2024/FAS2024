@@ -20,15 +20,16 @@ PostgreSQL, MySQL, Redis
 Security:
 JWT, OAuth2, RBAC, ZTA
 
+
 🚀 What I Do
 
 • Design and deploy scalable microservices using FastAPI and Django
 
-• Build AI-integrated systems using GPT-4 and LangChain
+• Build AI-driven systems and LLM integrations for intelligent automation
 
-• Containerize and deploy to cloud using Docker and AWS
+• Containerize and deploy apps to cloud environments using Docker and AWS
 
-• Implement async processing with Celery + Redis
+• Implement async workflows with Celery + Redis for high-performance backends
 
 • Maintain clean architecture, automated tests, and CI/CD pipelines
 
@@ -38,9 +39,9 @@ JWT, OAuth2, RBAC, ZTA
 
 Tech Stack: React (Vite), Django REST Framework (DRF), Redis, Celery, WebSocket, Django Channels, PostgreSQL
 
-A hybrid platform serving as both a personal developer portfolio and a full e-learning system:
+A hybrid platform serving as both my personal portfolio and a full-featured e-learning system:
 
-Portfolio viewer + Course enrollment
+Portfolio viewer + course enrollment
 
 CBT system (online/offline)
 
@@ -48,63 +49,68 @@ Real-time messaging with WebSockets & Django Channels
 
 Background tasks with Celery + Redis
 
-Mobile-friendly UI and JWT-secured APIs
+Mobile-friendly UI with JWT-secured APIs
 
 Hosted on AWS + PostgreSQL
+
 
 
 🏦 Veegil Bank App (Demo)
 
 Tech Stack: Node.js, TypeScript, NestJS, GraphQL, React, MySQL
 
-A mini core banking app with full-stack features:
+A mini core banking app demonstrating full-stack capabilities:
 
 User login, transfers, transaction history
 
-GraphQL API for modern, flexible data fetching
+Flexible data fetching via GraphQL
 
-Deployed live at: http://18.233.7.185:3000/
+Live demo: http://18.233.7.185:3000/
+
 
 
 🤖 Autonomous Market Research Agent
 
 Tech Stack: LangChain, GPT-4, FastAPI, PostgreSQL, Redis, Docker, AWS
 
-A production-ready GPT agent that automates market research:
+A production-ready GPT agent for automated market research:
 
-Multi-step LangChain AgentExecutor workflows
+Multi-step LangChain workflows for intelligent reasoning
 
-Scrapes data from APIs and generates insight reports
+Data scraping from multiple APIs and insight generation
 
-Includes retry logic, monitoring, and Redis caching
+Retry logic, monitoring, and Redis caching
 
-Deployed with Docker on AWS EC2
+Dockerized deployment on AWS EC2
+
 
 
 🧠 AI-Powered Knowledge Assistant
 
 Tech Stack: FastAPI, LangChain, OpenAI GPT-4, Pinecone, Docker
 
-Retrieval-Augmented Generation (RAG) assistant for answering support queries:
+A Retrieval-Augmented Generation (RAG) assistant for support queries:
 
-Integrated with Pinecone for vector-based document search
+Vector search with Pinecone for accurate responses
 
 Handles complex Q&A using GPT-4
 
-Deployed on AWS Lambda with Docker and RESTful FastAPI backend
+Serverless deployment on AWS Lambda with FastAPI backend
+
 
 
 🏫 Multi-School Messaging System
 
 Tech Stack: Django, Celery, Redis, PostgreSQL
 
-A real-time communication system for schools:
+A scalable messaging platform for schools:
 
 Async delivery of announcements and event notifications
 
-Improved messaging throughput by 60%
+60% faster message throughput
 
-Designed for scalable use across multiple schools
+Designed for multi-school adoption
+
 
 
 📅 AI Timetable Generator
@@ -113,22 +119,24 @@ Tech Stack: Django, TensorFlow, MySQL
 
 AI-based scheduler for schools and institutions:
 
-Machine Learning model creates optimal timetables
+Machine learning model generates optimal timetables
 
-Resolves teacher and room conflicts using resource constraints
+Resolves teacher and room conflicts efficiently
 
-Improved scheduling efficiency by 20%
+Scheduling efficiency improved by 20%
+
 
 
 🧑‍💻 About Me
 
 • 5+ years of backend engineering experience
 
-• Strong in LLM agent development, cloud-native APIs, and AI automation
+• Expert in cloud-native APIs, LLM agent development, and AI automation
 
-• Comfortable in Agile teams working across time zones (US, Canada, EU)
+• Agile team player, collaborating across US, Canada, and EU time zones
 
-• Actively mentoring junior developers
+• Actively mentoring junior developers and fostering best practices
+
 
 
 📫 Contact
