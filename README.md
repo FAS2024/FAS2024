@@ -1,25 +1,26 @@
 Fatai Ayinla Sunmonu (FAS)
+
 Senior Backend Developer | Python (Django/FastAPI/DRF) & Node.js (NestJS) | Cloud & Microservices | AI & LLM Integrations | Open to Remote Opportunities
 
-Tech Stack
 
-Languages & Frameworks
+💻 Tech Stack
+
+Languages & Frameworks:
 Python, Django, DRF, FastAPI, TypeScript, Node.js
 
-LLM & AI Tools
+LLM & AI Tools:
 LangChain, GPT-4, OpenAI APIs, HuggingFace, Pinecone
 
-Cloud & DevOps
+Cloud & DevOps:
 AWS (Lambda, EC2, S3), Docker, GitHub Actions
 
-Databases
+Databases:
 PostgreSQL, MySQL, Redis
 
-Security
+Security:
 JWT, OAuth2, RBAC, ZTA
 
-
-What I Do
+🚀 What I Do
 
 • Design and deploy scalable microservices using FastAPI and Django
 
@@ -32,10 +33,11 @@ What I Do
 • Maintain clean architecture, automated tests, and CI/CD pipelines
 
 
-Featured Projects
+🌟 Featured Projects
 📘 FAS EduPortal & Portfolio Site (In Progress)
 
 Tech Stack: React (Vite), Django REST Framework (DRF), Redis, Celery, WebSocket, Django Channels, PostgreSQL
+
 A hybrid platform serving as both a personal developer portfolio and a full e-learning system:
 
 Portfolio viewer + Course enrollment
@@ -54,6 +56,7 @@ Hosted on AWS + PostgreSQL
 🏦 Veegil Bank App (Demo)
 
 Tech Stack: Node.js, TypeScript, NestJS, GraphQL, React, MySQL
+
 A mini core banking app with full-stack features:
 
 User login, transfers, transaction history
@@ -66,6 +69,7 @@ Deployed live at: http://18.233.7.185:3000/
 🤖 Autonomous Market Research Agent
 
 Tech Stack: LangChain, GPT-4, FastAPI, PostgreSQL, Redis, Docker, AWS
+
 A production-ready GPT agent that automates market research:
 
 Multi-step LangChain AgentExecutor workflows
@@ -80,6 +84,7 @@ Deployed with Docker on AWS EC2
 🧠 AI-Powered Knowledge Assistant
 
 Tech Stack: FastAPI, LangChain, OpenAI GPT-4, Pinecone, Docker
+
 Retrieval-Augmented Generation (RAG) assistant for answering support queries:
 
 Integrated with Pinecone for vector-based document search
@@ -92,6 +97,7 @@ Deployed on AWS Lambda with Docker and RESTful FastAPI backend
 🏫 Multi-School Messaging System
 
 Tech Stack: Django, Celery, Redis, PostgreSQL
+
 A real-time communication system for schools:
 
 Async delivery of announcements and event notifications
@@ -104,6 +110,7 @@ Designed for scalable use across multiple schools
 📅 AI Timetable Generator
 
 Tech Stack: Django, TensorFlow, MySQL
+
 AI-based scheduler for schools and institutions:
 
 Machine Learning model creates optimal timetables
@@ -113,7 +120,7 @@ Resolves teacher and room conflicts using resource constraints
 Improved scheduling efficiency by 20%
 
 
-About Me
+🧑‍💻 About Me
 
 • 5+ years of backend engineering experience
 
@@ -124,11 +131,9 @@ About Me
 • Actively mentoring junior developers
 
 
-Contact
+📫 Contact
 
 Email: sunmonufataiayinla@gmail.com
-LinkedIn: https://linkedin.com/in/fatai-sunmonu
-GitHub: https://github.com/FAS2024
 
 LinkedIn: linkedin.com/in/fatai-sunmonu
 
