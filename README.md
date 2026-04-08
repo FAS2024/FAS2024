@@ -2,7 +2,7 @@
 
 **Senior Backend Engineer** — Python (Django, DRF, FastAPI) · Node.js (NestJS) · APIs, async systems, LLM integrations  
 
-**Open to remote** · Comfortable with **US / EU / Canada** overlap 
+**Open to remote** 
 
 ---
 
@@ -10,9 +10,9 @@
 
 | | |
 |--|--|
-| **Proof** | Public repos with **CI**, **Docker**, **Postgres/Redis** — not just tutorials |
-| **Remote** | Async-first communication, clear specs, small PRs, written updates |
-| **Focus** | Owning services: API design, auth, background jobs, deploy path, basic observability |
+| **Proof** | Public repos with **Docker Compose**, **tests/CI**, and **OpenAPI** where noted |
+| **Remote** | Async communication, small PRs, documented run paths |
+| **Focus** | Service design, auth, background jobs, shipping maintainable backends |
 
 ---
 
@@ -21,83 +21,71 @@
 | Area | Tools |
 |------|--------|
 | **Languages & frameworks** | Python, TypeScript, Node.js · Django, DRF, FastAPI · NestJS |
-| **AI / LLM** | LangChain, OpenAI APIs, Hugging Face, Pinecone |
-| **Cloud & delivery** | AWS (Lambda, EC2, S3) · Docker · GitHub Actions |
-| **Data** | PostgreSQL, MySQL, Redis |
+| **AI / LLM** | LangChain, OpenAI APIs, vector search (e.g. FAISS), Hugging Face |
+| **Cloud & delivery** | AWS · Docker · GitHub Actions |
+| **Data** | PostgreSQL, MySQL, Redis, MongoDB |
 | **Security** | JWT, OAuth2, RBAC |
 
 ---
 
 ### How I work (remote-friendly)
 
-- **Small, reviewable changes** with tests where behavior matters; CI catches regressions before merge.  
-- **Document assumptions** (API contracts, env vars, runbooks) so others can onboard without a call.  
-- **Async workloads** (Celery + Redis) kept out of the request path; clear failure and retry behavior.  
-- Used to **distributed teams** and overlapping hours across regions.  
+- Keep changes **small and reviewable**; automate **lint/tests in CI** when the repo supports it.  
+- Prefer **clear runbooks** (Compose, env samples, `/docs`) so others are not blocked on my calendar.  
+- Split **sync API** from **async work** (queues/workers) when latency or reliability matters.  
 
 ---
 
-### Featured projects *(ordered: easiest for a recruiter to verify)*
+### Featured repositories *(order: verify on GitHub → try live → depth)*
 
 #### 1. [AI Task Automation](https://github.com/FAS2024/ai-task-automation)
+
 **Stack:** FastAPI · Celery · Redis · PostgreSQL · Alembic · Docker Compose  
 
-API for **queued automation workflows**: JWT + admin routes, health/readiness, structured logging, **Ruff + pytest** in GitHub Actions.
+Queued **automation workflows**: JWT + admin routes, health/readiness, structured logging; **Ruff + pytest** in GitHub Actions.
 
-[![Repo](https://img.shields.io/badge/repo-ai--task--automation-181717?logo=github)](https://github.com/FAS2024/ai-task-automation)
+[![Repo](https://img.shields.io/badge/code-ai--task--automation-181717?logo=github)](https://github.com/FAS2024/ai-task-automation)
 [![CI](https://github.com/FAS2024/ai-task-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/FAS2024/ai-task-automation/actions/workflows/ci.yml)
 
 ---
 
 #### 2. [AI Sentinel](https://github.com/FAS2024/ai-sentinel)
-**Stack:** FastAPI · SQLAlchemy · PostgreSQL · Redis · Docker Compose  
 
-**AI safety / governance API**: risk scoring for LLM interactions, audit logs, alert queue, OpenAPI docs. **CI:** Ruff, pytest, GitHub Actions; liveness / readiness checks.
+**Stack:** FastAPI · PostgreSQL · Redis · Docker Compose  
 
----
+**LLM safety / governance API**: monitor calls, risk scoring, audit logs, alert queue; liveness/readiness, OpenAPI, demo scripts, **CI (pytest + Ruff)**.
 
-#### 3. Veegil Bank App *(demo — live URL)*
-**Stack:** NestJS, TypeScript, GraphQL, React, MySQL  
-
-Core-banking-style demo: auth, transfers, transaction history; GraphQL for flexible reads.  
-
-**Live:** http://18.233.7.185:3000/
+[![Repo](https://img.shields.io/badge/code-ai--sentinel-181717?logo=github)](https://github.com/FAS2024/ai-sentinel)
 
 ---
 
-#### 4. Autonomous market research agent
-**Stack:** LangChain, GPT-4, FastAPI, PostgreSQL, Redis, Docker, AWS EC2  
+#### 3. [Veegil Banking App](https://github.com/FAS2024/veegil-banking-app)
 
-Multi-step research flows over APIs and sources, Redis caching, retries, Dockerized deploy on EC2.
+**Stack:** NestJS · GraphQL · React · MongoDB · JWT  
 
----
+Full-stack **banking-style assessment app**: signup/login, deposits/withdrawals, history; GraphQL API + React UI; **hosted demo** + local Compose-style workflow in repo README.
 
-#### 5. AI-powered knowledge assistant (RAG)
-**Stack:** FastAPI, LangChain, OpenAI, Pinecone, Docker · AWS Lambda  
+**Live (from repo):** [Web UI](http://18.233.7.185:3000/) · [GraphQL](http://18.233.7.185:4000/graphql)
 
-RAG for support-style Q&A: Pinecone retrieval + GPT-4; API structured for serverless-style hosting.
+[![Repo](https://img.shields.io/badge/code-veegil--banking--app-181717?logo=github)](https://github.com/FAS2024/veegil-banking-app)
 
 ---
 
-#### 6. FAS EduPortal & portfolio — *in progress*
-**Stack:** React (Vite), DRF, PostgreSQL, Redis, Celery, Django Channels, WebSockets · AWS  
+#### 4. [LangChain Knowledge Assistant](https://github.com/FAS2024/langchain-knowledge-assistant)
 
-Portfolio + e-learning: courses, CBT (online/offline), real-time messaging, background jobs, JWT APIs, mobile-friendly UI.
+**Stack:** FastAPI · LangChain · FAISS · PostgreSQL · React (Vite) · Docker  
 
----
+**Full-stack RAG-style** doc chat: uploads, embeddings, vector search, chat; Dockerized backend + frontend.
 
-#### 7. AI timetable generator
-**Stack:** Django · TensorFlow · MySQL  
-
-School timetable generation with conflict handling; measurable efficiency gains in real scheduling use.
+[![Repo](https://img.shields.io/badge/code-langchain--knowledge--assistant-181717?logo=github)](https://github.com/FAS2024/langchain-knowledge-assistant)
 
 ---
 
 ### About
 
-- **5+ years** on backend systems, APIs, and automation.  
-- Ships **maintainable** services: migrations, tests, and enough logging to debug production.  
-- Mentors juniors on reviews, testing, and incremental delivery.  
+- **5+ years** on backends, APIs, and automation.  
+- Comfortable owning services **schema → API → deploy path**, with tests where behavior matters.  
+- Used to **distributed teams**; I bias to written decisions and reproducible setups.  
 
 ---
 
