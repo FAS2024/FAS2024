@@ -98,18 +98,13 @@ Handles complex Q&A using GPT-4
 Serverless deployment on AWS Lambda with FastAPI backend
 
 
+### Featured — [AI Sentinel](https://github.com/FAS2024/ai-sentinel)
 
-🏫 Multi-School Messaging System
+**AI safety / governance API** (FastAPI): risk scoring for LLM interactions, **PostgreSQL** audit logs, **Redis** alert queue, **OpenAPI** docs.
 
-Tech Stack: Django, Celery, Redis, PostgreSQL
+**Engineering:** integration tests, **Ruff + pytest** in GitHub Actions, **Docker / Compose** (API + Postgres + Redis), **liveness** and **readiness** health checks.
 
-A scalable messaging platform for schools:
-
-Async delivery of announcements and event notifications
-
-60% faster message throughput
-
-Designed for multi-school adoption
+**Stack:** Python · FastAPI · SQLAlchemy · PostgreSQL · Redis · Docker
 
 
 
