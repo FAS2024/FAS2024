@@ -1,143 +1,108 @@
-Fatai Ayinla Sunmonu (FAS)
+# Fatai Ayinla Sunmonu (FAS)
 
-Senior Backend Developer | Python (Django/FastAPI/DRF) & Node.js (NestJS) | Cloud & Microservices | AI & LLM Integrations | Open to Remote Opportunities
+**Senior Backend Engineer** — Python (Django, DRF, FastAPI) · Node.js (NestJS) · APIs, async systems, LLM integrations  
 
+**Open to remote** · Comfortable with **US / EU / Canada** overlap 
 
-💻 Tech Stack
+---
 
-Languages & Frameworks:
-Python, Django, DRF, FastAPI, TypeScript, Node.js
+### At a glance
 
-LLM & AI Tools:
-LangChain, GPT-4, OpenAI APIs, HuggingFace, Pinecone
+| | |
+|--|--|
+| **Proof** | Public repos with **CI**, **Docker**, **Postgres/Redis** — not just tutorials |
+| **Remote** | Async-first communication, clear specs, small PRs, written updates |
+| **Focus** | Owning services: API design, auth, background jobs, deploy path, basic observability |
 
-Cloud & DevOps:
-AWS (Lambda, EC2, S3), Docker, GitHub Actions
+---
 
-Databases:
-PostgreSQL, MySQL, Redis
+### Tech I work with
 
-Security:
-JWT, OAuth2, RBAC, ZTA
+| Area | Tools |
+|------|--------|
+| **Languages & frameworks** | Python, TypeScript, Node.js · Django, DRF, FastAPI · NestJS |
+| **AI / LLM** | LangChain, OpenAI APIs, Hugging Face, Pinecone |
+| **Cloud & delivery** | AWS (Lambda, EC2, S3) · Docker · GitHub Actions |
+| **Data** | PostgreSQL, MySQL, Redis |
+| **Security** | JWT, OAuth2, RBAC |
 
+---
 
-🚀 What I Do
+### How I work (remote-friendly)
 
-• Design and deploy scalable microservices using FastAPI and Django
+- **Small, reviewable changes** with tests where behavior matters; CI catches regressions before merge.  
+- **Document assumptions** (API contracts, env vars, runbooks) so others can onboard without a call.  
+- **Async workloads** (Celery + Redis) kept out of the request path; clear failure and retry behavior.  
+- Used to **distributed teams** and overlapping hours across regions.  
 
-• Build AI-driven systems and LLM integrations for intelligent automation
+---
 
-• Containerize and deploy apps to cloud environments using Docker and AWS
+### Featured projects *(ordered: easiest for a recruiter to verify)*
 
-• Implement async workflows with Celery + Redis for high-performance backends
+#### 1. [AI Task Automation](https://github.com/FAS2024/ai-task-automation)
+**Stack:** FastAPI · Celery · Redis · PostgreSQL · Alembic · Docker Compose  
 
-• Maintain clean architecture, automated tests, and CI/CD pipelines
+API for **queued automation workflows**: JWT + admin routes, health/readiness, structured logging, **Ruff + pytest** in GitHub Actions.
 
+[![Repo](https://img.shields.io/badge/repo-ai--task--automation-181717?logo=github)](https://github.com/FAS2024/ai-task-automation)
+[![CI](https://github.com/FAS2024/ai-task-automation/actions/workflows/ci.yml/badge.svg)](https://github.com/FAS2024/ai-task-automation/actions/workflows/ci.yml)
 
-🌟 Featured Projects
-📘 FAS EduPortal & Portfolio Site (In Progress)
+---
 
-Tech Stack: React (Vite), Django REST Framework (DRF), Redis, Celery, WebSocket, Django Channels, PostgreSQL
+#### 2. [AI Sentinel](https://github.com/FAS2024/ai-sentinel)
+**Stack:** FastAPI · SQLAlchemy · PostgreSQL · Redis · Docker Compose  
 
-A hybrid platform serving as both my personal portfolio and a full-featured e-learning system:
+**AI safety / governance API**: risk scoring for LLM interactions, audit logs, alert queue, OpenAPI docs. **CI:** Ruff, pytest, GitHub Actions; liveness / readiness checks.
 
-Portfolio viewer + course enrollment
+---
 
-CBT system (online/offline)
+#### 3. Veegil Bank App *(demo — live URL)*
+**Stack:** NestJS, TypeScript, GraphQL, React, MySQL  
 
-Real-time messaging with WebSockets & Django Channels
+Core-banking-style demo: auth, transfers, transaction history; GraphQL for flexible reads.  
 
-Background tasks with Celery + Redis
+**Live:** http://18.233.7.185:3000/
 
-Mobile-friendly UI with JWT-secured APIs
+---
 
-Hosted on AWS + PostgreSQL
+#### 4. Autonomous market research agent
+**Stack:** LangChain, GPT-4, FastAPI, PostgreSQL, Redis, Docker, AWS EC2  
 
+Multi-step research flows over APIs and sources, Redis caching, retries, Dockerized deploy on EC2.
 
+---
 
-🏦 Veegil Bank App (Demo)
+#### 5. AI-powered knowledge assistant (RAG)
+**Stack:** FastAPI, LangChain, OpenAI, Pinecone, Docker · AWS Lambda  
 
-Tech Stack: Node.js, TypeScript, NestJS, GraphQL, React, MySQL
+RAG for support-style Q&A: Pinecone retrieval + GPT-4; API structured for serverless-style hosting.
 
-A mini core banking app demonstrating full-stack capabilities:
+---
 
-User login, transfers, transaction history
+#### 6. FAS EduPortal & portfolio — *in progress*
+**Stack:** React (Vite), DRF, PostgreSQL, Redis, Celery, Django Channels, WebSockets · AWS  
 
-Flexible data fetching via GraphQL
+Portfolio + e-learning: courses, CBT (online/offline), real-time messaging, background jobs, JWT APIs, mobile-friendly UI.
 
-Live demo: http://18.233.7.185:3000/
+---
 
+#### 7. AI timetable generator
+**Stack:** Django · TensorFlow · MySQL  
 
+School timetable generation with conflict handling; measurable efficiency gains in real scheduling use.
 
-🤖 Autonomous Market Research Agent
+---
 
-Tech Stack: LangChain, GPT-4, FastAPI, PostgreSQL, Redis, Docker, AWS
+### About
 
-A production-ready GPT agent for automated market research:
+- **5+ years** on backend systems, APIs, and automation.  
+- Ships **maintainable** services: migrations, tests, and enough logging to debug production.  
+- Mentors juniors on reviews, testing, and incremental delivery.  
 
-Multi-step LangChain workflows for intelligent reasoning
+---
 
-Data scraping from multiple APIs and insight generation
+### Contact
 
-Retry logic, monitoring, and Redis caching
-
-Dockerized deployment on AWS EC2
-
-
-
-🧠 AI-Powered Knowledge Assistant
-
-Tech Stack: FastAPI, LangChain, OpenAI GPT-4, Pinecone, Docker
-
-A Retrieval-Augmented Generation (RAG) assistant for support queries:
-
-Vector search with Pinecone for accurate responses
-
-Handles complex Q&A using GPT-4
-
-Serverless deployment on AWS Lambda with FastAPI backend
-
-
-### Featured — [AI Sentinel](https://github.com/FAS2024/ai-sentinel)
-
-**AI safety / governance API** (FastAPI): risk scoring for LLM interactions, **PostgreSQL** audit logs, **Redis** alert queue, **OpenAPI** docs.
-
-**Engineering:** integration tests, **Ruff + pytest** in GitHub Actions, **Docker / Compose** (API + Postgres + Redis), **liveness** and **readiness** health checks.
-
-**Stack:** Python · FastAPI · SQLAlchemy · PostgreSQL · Redis · Docker
-
-
-
-📅 AI Timetable Generator
-
-Tech Stack: Django, TensorFlow, MySQL
-
-AI-based scheduler for schools and institutions:
-
-Machine learning model generates optimal timetables
-
-Resolves teacher and room conflicts efficiently
-
-Scheduling efficiency improved by 20%
-
-
-
-🧑‍💻 About Me
-
-• 5+ years of backend engineering experience
-
-• Expert in cloud-native APIs, LLM agent development, and AI automation
-
-• Agile team player, collaborating across US, Canada, and EU time zones
-
-• Actively mentoring junior developers and fostering best practices
-
-
-
-📫 Contact
-
-Email: sunmonufataiayinla@gmail.com
-
-LinkedIn: linkedin.com/in/fatai-sunmonu
-
-GitHub: github.com/FAS2024
+- **Email:** sunmonufataiayinla@gmail.com  
+- **LinkedIn:** [linkedin.com/in/fatai-sunmonu](https://www.linkedin.com/in/fatai-sunmonu)  
+- **GitHub:** [github.com/FAS2024](https://github.com/FAS2024)  
