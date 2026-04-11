@@ -1,7 +1,7 @@
 # Fatai Ayinla Sunmonu (FAS)
 
-Senior Backend Engineer — Python (Django, DRF, FastAPI) · Node.js (NestJS)  
-APIs, async systems, and LLM integrations
+Senior Backend & Platform Engineer — Python (Django, DRF, FastAPI) · Node.js (NestJS)  
+Cloud (Vultr, AWS, Terraform) · APIs, async systems, LLM integrations  
 
 Open to remote roles
 
@@ -10,9 +10,10 @@ Open to remote roles
 ## At a glance
 
 - 5+ years building backend systems and APIs  
-- Built systems used by 20,000+ users  
+- Experience building and maintaining production-ready systems  
+- Built systems used by 20,000+ users and improved performance through caching and async processing  
 - Focus on reliability, performance, and clean architecture  
-- Comfortable owning services from design to deployment  
+- Comfortable owning services end-to-end (design, API, deployment, monitoring)  
 - Repos include Docker, CI, tests, and API documentation where relevant  
 
 ---
@@ -26,7 +27,7 @@ Python, TypeScript · Django, DRF, FastAPI · NestJS
 OpenAI APIs, LangChain, FAISS  
 
 **Cloud & delivery:**  
-AWS, Docker, GitHub Actions  
+AWS, Terraform, Docker, Kubernetes, GitHub Actions  
 
 **Data:**  
 PostgreSQL, MySQL, Redis, MongoDB  
@@ -41,7 +42,7 @@ JWT, OAuth2, RBAC
 - Prefer small, clear changes that are easy to review  
 - Separate API logic from background jobs when needed  
 - Try to make projects easy to run (docs, env examples, Docker)  
-- Balance performance with readability and maintainability  
+- Care about performance, but also readability and maintainability  
 
 ---
 
@@ -51,7 +52,7 @@ JWT, OAuth2, RBAC
 https://github.com/FAS2024/ai-task-automation  
 
 FastAPI-based background job system for handling automation workflows.  
-Uses Celery, Redis, and PostgreSQL. Includes auth, health checks, and CI setup.
+Uses Celery, Redis, and PostgreSQL. Includes authentication, health checks, and CI setup.
 
 ---
 
@@ -69,7 +70,7 @@ https://github.com/FAS2024/veegil-banking-app
 Banking-style app with authentication and transactions.  
 Built with NestJS (GraphQL) and React.
 
-Live:
+Live:  
 http://18.233.7.185:3000/  
 http://18.233.7.185:4000/graphql  
 
@@ -85,7 +86,7 @@ Upload documents, generate embeddings, and query via chat.
 
 ## About
 
-- Backend engineer with 5+ years experience  
+- Backend & platform engineer with 5+ years experience  
 - Worked on APIs, automation systems, and AI-powered tools  
 - Comfortable working in remote and async teams  
 - Interested in distributed systems and scalable architectures  
