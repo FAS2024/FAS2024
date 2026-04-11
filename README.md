@@ -27,7 +27,7 @@ Python, TypeScript · Django, DRF, FastAPI · NestJS
 OpenAI APIs, LangChain, FAISS  
 
 **Cloud & delivery:**  
-AWS, Terraform, Docker, Kubernetes, GitHub Actions  
+Vultr, AWS, Terraform, Docker, Kubernetes, GitHub Actions  
 
 **Data:**  
 PostgreSQL, MySQL, Redis, MongoDB  
