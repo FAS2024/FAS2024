@@ -298,7 +298,7 @@ Django REST Framework · FastAPI · PostgreSQL · Redis · Celery · Docker · K
 
 ---
 
-### Senior Full-Stack Engineer
+### Senior Full-Stack Developer
 
 **Veegil Technology · Lagos · Sep 2025 – Present**
 
@@ -324,7 +324,7 @@ Also worked with Playwright for automated API and UI testing and collaborated wi
 
 ### Backend Developer
 
-**Wilcoson Tech Solutions · Lagos · Jan 2024 – Aug 2025**
+**Wilcoson Tech Solutions · Lagos · Jan 2023 – Apr 2025**
 
 Worked with Django, Django REST Framework, FastAPI, and NestJS.
 
@@ -334,7 +334,7 @@ Built APIs, integrations, database models, and backend services, with additional
 
 ### Backend Developer
 
-**Wanies Halburt · Lagos · May 2021 – Dec 2023**
+**SoftForge Tech · Abuja · Feb 2020 – Dec 2022**
 
 Worked mainly with Python and Django, building REST and GraphQL APIs, database models, backend components, and automated tests.
 
